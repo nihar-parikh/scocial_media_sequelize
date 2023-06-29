@@ -1,7 +1,4 @@
-const e = require("express");
-const { Op } = require("sequelize");
 const db = require("../models");
-const sequelize = db.sequelize;
 const Comment = db.comment;
 const Image = db.image;
 const Video = db.video;

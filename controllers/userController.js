@@ -1,5 +1,4 @@
 const db = require("../models");
-const sequelize = db.sequelize;
 const User = db.user;
 const Image = db.image;
 const Video = db.video;

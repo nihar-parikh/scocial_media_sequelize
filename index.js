@@ -1,7 +1,5 @@
 const express = require("express");
 let bodyParser = require("body-parser");
-// const db = require("./models");
-// console.log({ db });
 const userController = require("./controllers/userController");
 const imageController = require("./controllers/imageController");
 const videoController = require("./controllers/videoController");
